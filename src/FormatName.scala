@@ -22,7 +22,7 @@ object FormatName {
             formatted(1) = Character.toUpperCase(formatted(1))
             formatted.toString()
           }))
-          case "Saman" => println(formatNames(name)(toLower))
+          case "Saman" => println(formatNames(name)(toUpper))
           case "Kumara" => println(formatNames(name)(name => {
             val formatted = new StringBuilder(name)
             formatted(0) = Character.toUpperCase(formatted(0))

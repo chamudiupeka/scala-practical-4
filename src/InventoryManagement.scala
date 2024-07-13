@@ -35,7 +35,7 @@ object InventoryManagement {
       }
     }
 
-    def main(args: Array[String]): Unit = {
+
       displayInventory()
 
       restockItem("Apples", 5)
@@ -46,7 +46,7 @@ object InventoryManagement {
       sellItem("Pineapples", 1)
 
       displayInventory()
-    }
+
 
   }
 }
